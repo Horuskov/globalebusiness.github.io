@@ -1,0 +1,33 @@
+a:link{text-decoration:white;}
+a:hover{color:blue;}
+
+#body {
+  background-color:#fefefe; font-family:Arial;
+}
+
+nav {
+  height: auto;
+  border:solid black;
+  background-color: black;
+}
+
+nav ul {
+}
+
+nav ul li {
+   display: inline-block;
+}
+
+nav ul li a {
+   padding:auto;
+   font-size: 26px;
+   font-family: Arial;
+   display: inline;
+   color:#ffffff;
+   text-align:center;
+
+ }
+
+ h1 {
+   text-align:center;
+ }
