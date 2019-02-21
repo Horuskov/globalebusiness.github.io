@@ -17,7 +17,8 @@
 </header>
 
 <h1>Welcome to <br > GEB student official website</h1>
-<img src:"//c1.staticflickr.com/5/4054/4532478038_dd24bff471_b.jpg"></
+<div><img src="https://i.imgur.com/nGcWTyG.jpg" id='PictureHome'>
+  <p id='HomeP'>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz</p></div>
 
 </body>
 </html>
