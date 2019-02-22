@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
+  </head>
+
+<body id='body'>
+<header class='banner'>
+  <nav class='banner'>
+     <ul class='banner'>
+        <li class='banner'><a href="https://www.google.fr/webhp?tab=rw" class='banner'>Home</a></li>
+        I
+        <li class='banner'><a href="#" class='banner'>About GEB</a></li>
+        I
+        <li class='banner'><a href="#" class='banner'>Alumni</a></li>
+        I
+        <li class='banner'><a href="#" class='banner'>FAQ</a></li>
+        I
+        <li class='banner'><a href="#" class='banner'>Contact us</a></li>
+     </ul>
+  </nav>
+</header>
+
+<h1>Welcome to <br > GEB student official website</h1>
+<div><img src="https://i.imgur.com/nGcWTyG.jpg" id='PictureHome'>
+  <p id='HomeP'><b>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz - [add more welcome in class languages] to the Global E-Business official site made by students for students.</b><br ><br >
+    You will find information about the Master degree, previous sutents reviews of their experience in France, companies where students did their internship or start-up they founded, events students participated in and much more!</p><br >
+    Anyway, if you have any questions about the GEB Master have a look at the <a href=#> FAQ </a> or fill the <a href=#>Contact Form </a>.
+    <br >
+  </div>
+
+<div><p>Please enjoy navigating on our website and do not hesitate to give us feedaback before leaving :)</p></div>
+
+  <footer class='footer'>
+<div class='footer'>
+  <nav class='footer'>
+     <ul class='footer'>
+        <li class='footer'><a href="#" class='footer'>Home</a></li>
+        <li class='footer'><a href="GEB.table.html" class='footer'>About GEB</a></li>
+        <li class='footer'><a href="#" class='footer'>Alumni</a></li>
+        <li class='footer'><a href="#" class='footer'>FAQ</a></li>
+        <li class='footer'><a href="#" class='footer'>Contact us</a></li>
+     </ul>
+  </nav>
+</div>
+</footer>
+
+</body>
+</html>
