@@ -1,0 +1,78 @@
+a:link{text-decoration:none;}
+a:hover.banner {color:blue;}
+
+#body {
+  background-color:#fefefe; font-family:Arial;
+  position: relative;
+}
+
+nav.banner {
+  height: auto;
+  border:solid black;
+  background-color: black;
+}
+
+nav ul.banner {
+  text-align:center;
+  color:#ffffff;
+}
+
+nav ul li.banner {
+   display: inline-block;
+   text-align:inherit;
+}
+
+nav ul li a.banner {
+   padding-left:8px;
+   padding-right:8px;
+   font-size: 26px;
+   font-family: Arial;
+   display: inline;
+   color:#ffffff;
+ }
+
+ h1 {
+   text-align:center;
+ }
+
+#PictureHome {
+  display: block;
+  height:475px;
+  width:900px;
+  align:left;
+  margin-left: 0px;
+  margin-right: 20px;
+  float:left;
+}
+
+nav.footer {
+   padding: 0 20;
+   min-width: 50px;
+}
+nav ul.footer {
+   background: linear-gradient(90deg,
+     rgba(255, 255, 255, 0) 0%,
+     rgba(255, 255, 255, 0.2) 25%,
+     rgba(255, 255, 255, 0.2) 75%,
+     rgba(255, 255, 255, 0) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+     text-align:center;
+}
+
+nav ul li.footer {
+   display: inline-block;
+}
+
+nav ul li a.footer {
+   padding: 10px;
+   color: #000000;
+   font-size: 16px;
+   font-family: Arial;
+   text-decoration: none;
+   display: block;
+   padding-left:25px;
+   padding-right:25px;
+ }
+
+ footer {position: absolute; bottom: 0; left: 0; right: 0}
