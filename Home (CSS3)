@@ -1,49 +1,93 @@
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
-  </head>
+a:link{text-decoration:none;}
+a:hover.banner {background-color:#d9d9d9;
+  color:#000000;}
+a:hover.footer {background-color: #000000;
+  color:white;}
 
-<body id='body'>
-<header class='banner'>
-  <nav class='banner'>
-     <ul class='banner'>
-        <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>About GEB</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>Alumni</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>FAQ</a></li>
-        I
-        <li class='banner'><a href="globalebusiness.contact.html" class="banner">Contact us</a></li>
-     </ul>
-  </nav>
-</header>
+#body {
+  background-color:#fefefe; font-family:Arial; position: absolute;
+}
 
-<h1>Welcome to <br > GEB student official website</h1>
-<div><img src="https://i.imgur.com/nGcWTyG.jpg" id='PictureHome'>
-  <p id='HomeP'><b>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz - [add more welcome in class languages] to the Global E-Business official site made by students for students.</b><br ><br >
-    You will find information about the Master degree, previous sutents reviews of their experience in France, companies where students did their internship or start-up they founded, events students participated in and much more!</p><br >
-    Anyway, if you have any questions about the GEB Master have a look at the <a href=#> FAQ </a> or fill the <a href=#>Contact Form </a>.
-    <br >
-  </div>
+header.banner {
+  height: 60px;
+  border:solid #000000;
+  background-color: #000000;
+  width:100%;
+  position:absolute;
+}
 
-<div><p>Please enjoy navigating on our website and do not hesitate to give us feedaback before leaving :)</p></div>
+nav ul.banner {
+  text-align:center;
+  color:#ffffff;
+}
+
+nav ul li.banner {
+   display: inline-block;
+   text-align:inherit;
+}
+
+nav ul li a.banner {
+   padding-left:12px;
+   padding-right:12px;
+   padding-top:19px;
+   padding-bottom:19px;
+   font-size: 26px;
+   font-family: Arial;
+   display: inline;
+   color:#ffffff;
+ }
+
+ h1 {
+   text-align:center;
+ }
+
+#PictureHome {
+  display: block;
+  height:475px;
+  width:900px;
+  align:left;
+  margin-left: 0px;
+  margin-right: 20px;
+  float:left;
+}
+
+p {
+  position:inherit;
+}
 
 
-  <footer class='footer'>
-<div class='footer'>
-  <nav class='footer'>
-     <ul class='footer'>
-        <li class='footer'><a href="globalebusiness.home.html" class='footer'>Home</a></li>
-        <li class='footer'><a href="#" class='footer'>About GEB</a></li>
-        <li class='footer'><a href="#" class='footer'>Alumni</a></li>
-        <li class='footer'><a href="#" class='footer'>FAQ</a></li>
-        <li class='footer'><a href="globalebusiness.contact.html" class='footer'>Contact us</a></li>
-     </ul>
-  </nav>
-</div>
-</footer>
+nav.footer {
+   padding: 0 20;
+   min-width: 50px;
+   max-width: 600px;
+   margin-left:auto;
+   margin-right:auto;
+ }
 
-</body>
-</html>
+nav ul.footer {
+   background: linear-gradient(90deg,
+     rgba(255, 255, 255, 0) 0%,
+     rgba(255, 255, 255, 0.2) 25%,
+     rgba(255, 255, 255, 0.2) 75%,
+     rgba(255, 255, 255, 0) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+     text-align:center;
+}
+
+nav ul li.footer {
+   display: inline-block;
+}
+
+nav ul li a.footer {
+   padding: 10px;
+   color: #000000;
+   font-size: 16px;
+   font-family: Arial;
+   text-decoration: none;
+   display: block;
+   padding-left:25px;
+   padding-right:25px;
+ }
+
+ footer {position: fixed; bottom: 0; left: 0; right: 0}
