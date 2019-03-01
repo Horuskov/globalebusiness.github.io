@@ -1,37 +1,37 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
-  </head>
+  <header>
+    <nav class='banner'>
+       <ul class='banner'>
+          <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
+          I
+          <li class='banner'><a href="#" class='banner'>About GEB</a></li>
+          I
+          <li class='banner'><a href="#" class='banner'>Alumni</a></li>
+          I
+          <li class='banner'><a href="#" class='banner'>FAQ</a></li>
+          I
+          <li class='banner'><a href="globalebusiness.contact.html" class="banner">Contact us</a></li>
+       </ul>
+    </nav>
+  </header>
+</head>
 
-<body id='body'>
-<header class='banner'>
-  <nav class='banner'>
-     <ul class='banner'>
-        <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>About GEB</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>Alumni</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>FAQ</a></li>
-        I
-        <li class='banner'><a href="globalebusiness.contact.html" class="banner">Contact us</a></li>
-     </ul>
-  </nav>
-</header>
-
+<body>
 <h1>Welcome to <br > GEB student official website</h1>
-<div><img src="https://i.imgur.com/nGcWTyG.jpg" id='PictureHome'>
-  <p id='HomeP'><b>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz - [add more welcome in class languages] to the Global E-Business official site made by students for students.</b><br ><br >
+<div><p id='HomeP'><b>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz - [add more welcome in class languages] to the Global E-Business official site made by students for students.</b><br ><br >
     You will find information about the Master degree, previous sutents reviews of their experience in France, companies where students did their internship or start-up they founded, events students participated in and much more!</p><br >
     Anyway, if you have any questions about the GEB Master have a look at the <a href=#> FAQ </a> or fill the <a href=#>Contact Form </a>.
-    <br >
+    <img src="https://i.imgur.com/nGcWTyG.jpg"id='PictureHome'><br >
   </div>
 
 <div><p>Please enjoy navigating on our website and do not hesitate to give us feedaback before leaving :)</p></div>
 
+<div id='info'></div>
+</body>
 
-  <footer class='footer'>
+<footer>
 <div class='footer'>
   <nav class='footer'>
      <ul class='footer'>
@@ -44,6 +44,4 @@
   </nav>
 </div>
 </footer>
-
-</body>
 </html>
