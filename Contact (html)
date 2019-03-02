@@ -1,10 +1,10 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href='globalebusiness.contact.css'></link>
+  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
   </head>
 
-<body id='body'>
-<header class='banner'>
+<body>
+<header>
   <nav class='banner'>
      <ul class='banner'>
         <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
@@ -19,7 +19,9 @@
      </ul>
   </nav>
 </header>
-<br >
+</br >
+
+<div class="main">
 <div class="container">
   <form action="action_page.php">
 
@@ -36,7 +38,7 @@
 
   </form>
 </div>
-
+</div>
 
   <footer class='footer'>
 <div class='footer'>
