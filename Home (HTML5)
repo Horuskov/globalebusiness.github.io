@@ -1,6 +1,9 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
+<link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
+</head>
+
+<body>
   <header>
     <nav class='banner'>
        <ul class='banner'>
@@ -16,9 +19,8 @@
        </ul>
     </nav>
   </header>
-</head>
 
-<body>
+<div class="main">
 <h1>Welcome to <br > GEB student official website</h1>
 <div><p id='HomeP'><b>Bienvenue - Welcome - Dobro pojalovat - Kosh keldiniz - [add more welcome in class languages] to the Global E-Business official site made by students for students.</b><br ><br >
     You will find information about the Master degree, previous sutents reviews of their experience in France, companies where students did their internship or start-up they founded, events students participated in and much more!</p><br >
@@ -29,7 +31,8 @@
 <div><p>Please enjoy navigating on our website and do not hesitate to give us feedaback before leaving :)</p></div>
 
 <div id='info'></div>
-</body>
+
+</div>
 
 <footer>
 <div class='footer'>
@@ -44,4 +47,7 @@
   </nav>
 </div>
 </footer>
+
+</body>
+
 </html>
