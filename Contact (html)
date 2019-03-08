@@ -1,27 +1,30 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'></link>
+  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+</link>
   </head>
 
 <body>
 <header>
-  <nav class='banner'>
+  <span class="logo">Global E-Business</span>
+  <div class='banner'>
      <ul class='banner'>
         <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
-        I
         <li class='banner'><a href="#" class='banner'>About GEB</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>Alumni</a></li>
-        I
-        <li class='banner'><a href="#" class='banner'>FAQ</a></li>
-        I
+        <li class='banner'><a href="globalebusiness.alumni.html" class='banner'>Alumni</a></li>
         <li class='banner'><a href="globalebusiness.contact.html" class='banner'>Contact us</a></li>
      </ul>
   </nav>
+  </div>
 </header>
 </br >
 
 <div class="main">
+  <div class="form">
+<div class="precontainer"><img src="http://images.clipartpanda.com/mismanagement-clipart-Megaphone-man-1.png" id="messagepic" class="precontainer">
+<p class="precontainer">What's up?</br> Contact us and we'll answer as soon as possible!</p>
+</div>
 <div class="container">
   <form action="action_page.php">
 
@@ -39,6 +42,13 @@
   </form>
 </div>
 </div>
+</div>
+
+<div class="info">
+<img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fclipground.com%2Fimages%2Fconstruction-sign-clipart-4.jpg&f=1' id='infopic'>
+<p class="info">Our website is under construction, please fill the <a href='globalebusiness.contact.html'>Contact Form </a> for any feedback. Thanks a lot! ;)
+</p>
+</div>
 
   <footer class='footer'>
 <div class='footer'>
@@ -47,7 +57,6 @@
         <li class='footer'><a href="globalebusiness.home.html" class='footer'>Home</a></li>
         <li class='footer'><a href="#" class='footer'>About GEB</a></li>
         <li class='footer'><a href="#" class='footer'>Alumni</a></li>
-        <li class='footer'><a href="#" class='footer'>FAQ</a></li>
         <li class='footer'><a href="globalebusiness.contact.html" class='footer'>Contact us</a></li>
      </ul>
   </nav>
