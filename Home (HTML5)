@@ -1,67 +1,87 @@
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href='globalebusiness.home.css'>
-<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'></link>
- <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href='globalebusiness.home.css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+  </link>
+  <meta charset="UTF-8">
 </head>
 
 <body>
   <header>
     <span class="logo">Global E-Business</span>
     <div class='banner'>
-       <ul class='banner'>
-          <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
-          <li class='banner'><a href="#" class='banner'>About GEB</a></li>
-          <li class='banner'><a href="globalebusiness.alumni.html" class='banner'>Alumni</a></li>
-          <li class='banner'><a href="globalebusiness.contact.html" class="banner">Contact us</a></li>
-       </ul>
-    </nav>
-  </div>
+      <ul class='banner'>
+        <li class='banner'><a href="globalebusiness.home.html" class='banner'>Home</a></li>
+        <li class='banner'><a href="#" class='banner'>About GEB</a></li>
+        <li class='banner'><a href="globalebusiness.alumni.html" class='banner'>Alumni</a></li>
+        <li class='banner'><a href="globalebusiness.contact.html" class="banner">Contact us</a></li>
+      </ul>
+      </nav>
+    </div>
   </header>
 
-<div class="main">
-<h1>Welcome to <br > <span class="logo">Global E-Business</span></h1>
-<div class="message"><img src="http://images.clipartpanda.com/mismanagement-clipart-Megaphone-man-1.png" id="messagepic">
-<article class="message">
-<p class="message">"Bienvenue, Welcome, مرحبا بكم, bienvenida, 歓迎, добро пожаловать to GEB website!</p>
-<p class="message">If you're looking for information about Global E-Business Master Degree your are on the spot-on.</p>
-<p class='message'>Please have a look at our <span class="message">Alunmi</span> and <span class="message">About GEB</span> sections to find out more! Most recent items are just below :)"</p>
-<p class="message">-The GEB team !-</p>
-</article>
-</div>
-</div>
+  <div class="home">
+    <h1>Welcome to <br> <span class="logo">Global E-Business</span></h1>
+    <div class="message"><img src="http://images.clipartpanda.com/mismanagement-clipart-Megaphone-man-1.png" id="messagepic">
+      <article class="message">
+        <p class="message"><b>"Bienvenue, Welcome, مرحبا بكم, bienvenida, 歓迎, добро пожаловать to <br>GEB website!</b></p>
+        <p class="message">If you're looking for information about Global E-Business Master Degree your are on the spot-on.</p>
+        <p class='message'>Please have a look at our <span class="message"><a href="globalebusiness.alumni.html">Alunmi</a></span> and
+          <span class="message">About GEB</span> sections to find out more! Most recent items are just below :)"</p>
+        <p class="message">-The GEB team !-</p>
+      </article>
+    </div>
+  </div>
 
-<h2>What you should have a look to:</h2>
-<div class="new">
-<div class="inew"><p class="inew">Intern, trainee & Jobs</p>
-</div>
-<div class="inew"><p class="inew">Students' reviews</p>
-</div>
-<div class="inew"><p class="inew">Photo Gallery</p>
-  <div class="photo"></div>
-  <div class="photo"></div>
-  <div class="photo"></div>
-</div>
-</div>
+  <h1 class="title">Showcase of the students' life in GEB:</h1>
 
-<div class="info">
-<img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fclipground.com%2Fimages%2Fconstruction-sign-clipart-4.jpg&f=1' id='infopic'>
-<p class="info">Our website is under construction, please fill the <a href='globalebusiness.contact.html'>Contact Form </a> for any feedback. Thanks a lot! ;)
-</p>
-</div>
+  <div class="new">
+    <div class="inew">
+      <p class="inew">GEB Students work(ed) there:</p>
+      <a href="http://maxxing.com/home-10000-1-2.html"><img src="http://maxxing.com/images/header/maxxing-logo.jpg" class="logoshowcase"></a>
+      <a href="https://amadeus.com/en"><img src="https://www.travelindustrymentor.com.au/wp-content/uploads/2017/12/Amadeus-logo.png" class="logoshowcase"></a>
+      <a href="https://www.oracle.com/fr/index.html"><img src="https://www.oracle.com/webfolder/s/brand/assets/i/specimens/identity/logo/primary-badge.gif" class="logoshowcase"></a>
+      <a href="https://www.capgemini.com/"><img src="https://media-assets-02.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-136481-capgemini--2x1--940.png" class="logoshowcase"></a>
+      <a href="https://www.qatarairways.com/en/homepage.html"><img src="https://dwglogo.com/wp-content/uploads/2016/03/qatar-airways-emblem.png" class="logoshowcase"></a>
+      <a href="https://www.lavoixdunord.fr/"><img src="https://lh3.googleusercontent.com/co4NSZuJD9aWoUuQ8ERSrI5Xbmnq_W3yEU5_tKY_wPAVxonObEZlXqxKZir_IPBfjA1b" class="logoshowcase"></a>
+      <p class="startup"><a href="#">Discover companies created by students</a></p>
+    </div>
 
-<footer>
-<div class='footer'>
-  <nav class='footer'>
-     <ul class='footer'>
+    <div class="inew">
+      <p class="inew">Students' reviews</p>
+      <p class="startup">"I valued a lot to be there in GEB Master. Students I've met brought me knowledge and fun."<br />-Jean-</p>
+      <p class="startup">"It wasn't expected to enjoy so much with my classmates. Moreover, some teachers shared their experiences, that was crucial."<br />-Yanne-</p>
+      <p class="startup">"Though it is not a technical Master degree, along the year we would review the basics of E-Business. Maybe it was not enough technical..." <br />-Marie-</p>
+      <p class="startup">"The Master Degree was well organized with lessons first then project and the internship. I took the opportunity to create my own business which I do not regret at all because it laught me a lot."<br />-Sophie-</p>
+    </div>
+
+    <div class="inew">
+      <p class="inew">Photo Gallery</p>
+      <div class="photo"><a href="https://ibb.co/RTwVx2X"><img src="https://i.ibb.co/jkX1chC/Geb-photo.jpg" alt="Geb-photo" border="0" class="photo"></a></div>
+      <div class="photo"><a href="https://ibb.co/gSLk5jJ"><img src="https://i.ibb.co/F5LRSxz/0.jpg" alt="0" border="0" class="photo"></a></div>
+      <div class="photo"><a href="#"><p class="startup">More photos 'round here ;)'</p></a></div>
+    </div>
+  </div>
+
+  <div class="info">
+    <img src='https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fclipground.com%2Fimages%2Fconstruction-sign-clipart-4.jpg&f=1' id='infopic'>
+    <p class="info">Our website is under construction, please fill the <a href='globalebusiness.contact.html'>Contact Form </a> for any feedback. Thanks a lot! ;)
+    </p>
+  </div>
+
+
+  <footer>
+    <div class='footer'>
+      <ul class='footer'>
         <li class='footer'><a href="globalebusiness.home.html" class='footer'>Home</a></li>
         <li class='footer'><a href="#" class='footer'>About GEB</a></li>
         <li class='footer'><a href="alumni" class='footer'>Alumni</a></li>
         <li class='footer'><a href="globalebusiness.contact.html" class='footer'>Contact us</a></li>
-     </ul>
-  </nav>
-</div>
-</footer>
+      </ul>
+      </nav>
+    </div>
+  </footer>
 
 </body>
 
