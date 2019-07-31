@@ -75,39 +75,7 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
+    <script src=index-script.js>
     </script>
 
     <div class="case">
@@ -143,7 +111,7 @@
     <div class="new">
       <div class="inew">
         <p class="inew">GEB Students work(ed) there:</p>
-        <a href="http://maxxing.com/home-10000-1-2.html"><img src="http://maxxing.com/images/header/maxxing-logo.jpg" class="logoshowcase"></a>
+        <a href="http://maxxing.com/home-10000-1-2.html"><img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjb2vvX5d7jAhUF16QKHUK5CTIQjRx6BAgBEAU&url=http%3A%2F%2Fwww.maxxing.com%2F&psig=AOvVaw227u1ZSXN6iK4oCkUGEAIN&ust=1564650021154824" class="logoshowcase"></a>
         <a href="https://amadeus.com/en"><img src="https://www.travelindustrymentor.com.au/wp-content/uploads/2017/12/Amadeus-logo.png" class="logoshowcase"></a>
         <a href="https://www.oracle.com/fr/index.html"><img src="https://www.oracle.com/webfolder/s/brand/assets/i/specimens/identity/logo/primary-badge.gif" class="logoshowcase"></a>
         <a href="https://www.capgemini.com/"><img src="https://media-assets-02.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-136481-capgemini--2x1--940.png" class="logoshowcase"></a>
