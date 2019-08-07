@@ -1,3 +1,4 @@
+/* mobile adaptation */
 @viewport {
   width: device-width ;
   zoom: 1.0 ;
@@ -7,9 +8,8 @@
   width: device-width ;
 }
 
+/* all the content */
 html {
-  min-height: 100%;
-  position: relative;
   max-width: 3000px;
 }
 
@@ -18,7 +18,12 @@ body {
   min-height: 100%;
   padding: 0;
   margin: 0;
-  position: inherit;
+  position: relative;
+}
+body::after {
+  content: '';
+  display: block;
+  height: 200px;
 }
 
 div {
@@ -81,7 +86,7 @@ header span.logo {
   text-overflow: ellipsis;
 }
 
-/* Miscellaneous */
+/* Making hovering great again */
 a {
   color: inherit;
   text-decoration: none;
@@ -106,7 +111,7 @@ div:hover.message {
   color: #ffffff;
 }
 
-/* Main content */
+/* Main title */
 h1 {
   text-align: center;
   margin-top: 0;
@@ -127,7 +132,7 @@ span.logo {
   transition: color .2s ease-in, text-shadow .2s ease-in;
 }
 
-/* Home */
+/* Message welcoming newcomers */
 .home {
   background-image: url('https://g.foolcdn.com/editorial/images/483225/graduation.jpg');
   background-repeat: no-repeat;
@@ -269,6 +274,7 @@ div.case {
   background-size: cover;
 }
 
+/* reviews from students */
 .text p {
   text-align: center;
   margin-left:50px;
@@ -356,87 +362,8 @@ div.case {
   }
 }
 
-/* France div */
-div.fr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #404040;
-  margin: 20px;
-  box-shadow: 2px 2px 6px grey;
-  width: auto;
-  height: auto;
-  vertical-align: middle;
-}
 
-#lille {
-  background: url('https://hautsdefrance.cci.fr/content/uploads/sites/6/2016/12/une-ccigrandlille.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#univ {
-  background: url('https://static1.squarespace.com/static/5565e723e4b03021a50af7c4/5c4ec8eac2241b81fc3c4915/5c4ec9b06d2a73c5a0574b73/1548667422622/luniversite-catholique-de-lille-img_6861.jpg?format=1500w');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#lille2 {
-  background: url('https://www.wallpaperup.com/uploads/wallpapers/2018/01/11/1188211/3f083c5645a579118f9e4036955740b4.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-p.frd {
-  font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
-  font-size: 35px;
-  margin-top: 10px;
-  letter-spacing: 0.2px;
-  word-spacing: 2px;
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: none;
-  font-variant: normal;
-  text-shadow: 1px 1px 0px #2b2b2b;
-  text-align: center;
-}
-
-div.frd {
-  width: auto;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-/*JOB*/
-div.job {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: url('https://www.stratagemcpa.com/wp-content/uploads/2018/03/file-23.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border: 2px solid #404040;
-  margin: 20px;
-  box-shadow: 2px 2px 6px grey;
-  width: auto;
-  height: auto;
-}
-
-div.jobd {
-  width: 150px;
-  height: 300px;
-  border: solid #595959;
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-/* NEWS */
+/* Showcase of GEB lives */
 div.new {
   display: flex;
   align-items: flex-start;
@@ -450,6 +377,7 @@ div.new {
   box-shadow: 2px 2px 6px grey;
 }
 
+/* managing the 3 div in the showcase */
 div.inew {
   width: 400px;
   height: auto;
@@ -599,17 +527,75 @@ p.container {
   padding: 0;
 }
 
-/* Footer HIDDEN FOR NOW */
+/* Discover lille div */
+div.fr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #404040;
+  margin: 20px;
+  box-shadow: 2px 2px 6px grey;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+#lille {
+  background: url('https://hautsdefrance.cci.fr/content/uploads/sites/6/2016/12/une-ccigrandlille.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#univ {
+  background: url('https://static1.squarespace.com/static/5565e723e4b03021a50af7c4/5c4ec8eac2241b81fc3c4915/5c4ec9b06d2a73c5a0574b73/1548667422622/luniversite-catholique-de-lille-img_6861.jpg?format=1500w');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#lille2 {
+  background: url('https://www.wallpaperup.com/uploads/wallpapers/2018/01/11/1188211/3f083c5645a579118f9e4036955740b4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p.frd {
+  font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+  font-size: 35px;
+  letter-spacing: 0.2px;
+  word-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  font-variant: normal;
+  text-shadow: 1px 1px 0px #2b2b2b;
+  text-align: center;
+  height:200px;
+  width:300px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.frd {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Footer */
 footer {
-  position: static;
   overflow: auto;
   background: #404040;
   margin-top: 50px;
   bottom: 0;
   border-top: 2px solid #000000;
   box-shadow: 0 0 3px #f2f2f2;
-  height: auto;
+  height: 200px;
   width: 100%;
+  position:absolute;
 }
 
 div.footer {
