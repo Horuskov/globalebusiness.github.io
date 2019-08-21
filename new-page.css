@@ -1,0 +1,183 @@
+/* CODE ONLY BETWEEN THE COMMENT TAGS BELOW HEADER AND ABOVE FOOTER */
+
+/* mobile adaptation */
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  @-ms-viewport {
+    width: device-width ;
+  }
+  
+  /* all the content */
+  html {
+    max-width: 3000px;
+  }
+  
+  body {
+    font-family: Arial;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  body::after {
+    content: '';
+    display: block;
+    height: 200px;
+  }
+  
+  div {
+    overflow: auto;
+  }
+  
+  /* Header */
+  header {
+    height: 50px;
+    background-color: #404040;
+    box-shadow: 0 2px 6px #404040;
+    position: relative;
+  }
+  
+  div.banner {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+  }
+  
+  div ul.banner {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  div ul li.banner {
+    display: inline-block;
+    text-align: inherit;
+  }
+  
+  div ul li a.banner {
+    padding-left: 15px;
+    padding-right: 15px;
+    font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    font-variant: normal;
+    text-transform: capitalize;
+    display: block;
+    line-height: 2;
+    transition: color .2s ease-in, background .2s ease-in;
+  }
+  
+  header span.logo {
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 12px;
+    position: absolute;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Making hovering great again */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover.banner {
+    background-color: #ffffff;
+    color: #333333
+  }
+  
+  span:hover.logo {
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #1a8cff;
+    cursor: default;
+  }
+  
+  div:hover.message {
+    box-shadow: 4px 4px 6px grey;
+  }
+  
+  .footer a:hover {
+    color: #ffffff;
+  }
+  
+/* WRITE YOU CODE FROM THERE */
+
+
+/* TO THERE */
+
+  /* Footer */
+  footer {
+    overflow: auto;
+    background: #404040;
+    margin-top: 50px;
+    bottom: 0;
+    border-top: 2px solid #000000;
+    box-shadow: 0 0 3px #f2f2f2;
+    height: 200px;
+    width: 100%;
+    position:absolute;
+  }
+  
+  div.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .footer ul {
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #d9d9d9;
+    font-weight: 500;
+    text-decoration: none;
+    font-variant: normal;
+    text-transform: capitalize;
+    display: block;
+    color: #1a8cff;
+  }
+  
+  .footer li {
+    font: 400 100px/1.3 'Lobster Two', Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    color: #d9d9d9;
+    font-weight: 200;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    font-variant: normal;
+    display: block;
+    text-align: left;
+  }
+  
+  .footer a {
+    transition: color .05s ease-in;
+  }
+  
