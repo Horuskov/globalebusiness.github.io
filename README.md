@@ -1,4 +1,4 @@
-# GEB website made by GEb students for GEB students (Lille - France)
+# GEB website made by GEB students for GEB students (Lille - France)
 Hello all! This is the website for GEB students!
 
 Find out what we coded as our first website as part of the M2 GEB projects involving 3 students. We are fresh apprentice in web development and the project was a way of increasing our skills. So please, don't be too judgy when you come across what could be mere stupidity, mistakes are made to make a step further... :)
